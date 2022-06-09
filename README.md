@@ -2,7 +2,7 @@
 
 # Decode morse code
 
-This project will make use of the Ruby language syntac to decode a message in morse code.
+This project will make use of the Ruby language syntax to decode a message in morse code.
 
 
 Enjoy!
@@ -13,7 +13,7 @@ Enjoy!
 - Ruby
 - Terminal
 - IRB
-- Robocop (linters)
+- Rubocop (linters)
 
 ## Live Demo (if available)
 
@@ -34,15 +34,24 @@ Locate the directory in your file explorer
 
 `cd decode_morse_code`
 
-Install Robocop
+Install Rubocop
 
 `bundle install`
+
+## Run Linters:
+
+### To run rubocop we use:
+`rubocop`
+
+### To autocorrect offenses with rubocop we use:
+`rubocop --auto-correct-all` or
+`rubocop -A`
 
 Have fun with morse code translation!
 
 ## Authors
 
-👤 **Author1**
+👤 **NEMWEL BONIFACE**
 
 - GitHub: [@Nemwel-Boniface ](https://github.com/Nemwel-Boniface)
 - Twitter: [@nemwel_bonie](https://twitter.com/nemwel_bonie)
@@ -58,7 +67,7 @@ Have fun with morse code translation!
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/Nemwel-Boniface/decode_morse_code/issues).
 
 ## Show your support
 
