@@ -9,6 +9,16 @@
   "--.." => "Z"
 }
 
+def process_code(chars)
+  @letters = chars.split
+  @current_word = ''
+  @letters.each do |letter|
+    converted_code(letter)
+    @current_word += converted_code(letter)
+  end
+  print "#{@current_word} "
+end
+
 def morse_decoder(string)
   @words = string.split('  ')
   @words.each do |word|
